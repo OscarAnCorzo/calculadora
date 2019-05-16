@@ -1,20 +1,12 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 20/04/2019, 08:42:59 PM
     Author     : oscar-corzo
 */
 
-.fila1{
-    background: white;
-}
-
 .fila1-c1, .fila1-c2{
     text-align: center;
     font-weight: bold;
+    color: white
 }
 
 .fila1-c2{
@@ -22,13 +14,56 @@ and open the template in the editor.
     font-style: italic;
     position: relative;
     top:21px;
+    color: black;
 }
 
-.campo{
-    width: 100%;
+input[type=text]{
+    border:0;
+    box-shadow:none;
+    width:96.5%;
+    pointer-events: none;
+}
+
+input[name=campo2]{
+    height:25px;
+    font-size:20px;
+    margin-bottom:0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    text-align: right;
+}
+
+input[name=campo]{
+    height:65px;
+    font-size:40px;
+    padding-top: 5%;
+    margin-top:0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.cont-bot{
+    width: 70%;
+    padding: 5px 15px 5px 15px;
+    font-size: 20px;
+    -webkit-box-shadow: inset 10px 10px 49px -5px rgba(255,255,255,0.46);
+    -moz-box-shadow: inset 10px 10px 49px -5px rgba(255,255,255,0.46);
+    box-shadow: inset 10px 10px 49px -5px rgba(255,255,255,0.46);
+}
+
+.boton1, .boton2{
+    border-radius: 25% 25% 25% 25%;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(187, 186, 186);
 }
 
 .boton2{
     position: relative;
-    right: 0px;
+    float: right;
+}
+
+.boton1{
+    width:17%;
+    margin: 0 0 0 6%;
 }
