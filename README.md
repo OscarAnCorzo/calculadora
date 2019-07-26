@@ -6,7 +6,6 @@ Calculadora web basica desarrollada como proyecto personal. Se implemetaron los 
 
 #### De programación:
 <li>JavaScript (JQuery)</li>
-<li>Java</li>
 
 #### Gestor de base de datos:
 <li> SQLYog (db no incluida) </li>
