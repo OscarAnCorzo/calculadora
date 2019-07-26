@@ -1,4 +1,4 @@
-# calculadora
+# Calculadora
 Calculadora web basica desarrollada como proyecto personal. Se implemetaron los siguientes lenguajes:
 #### De etiquetado:
 <li> HTML 5 </li>
